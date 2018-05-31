@@ -1,0 +1,200 @@
+/*
+  Theme Name: Alstar
+  Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
+  Author: BootstrapMade.com
+  Author URL: https://bootstrapmade.com
+*/
+
+/* ================================
+Imports
+================================= */
+.view {
+	overflow: hidden;
+	position: relative;
+	cursor: default;
+}
+
+.view .mask {
+	background-attachment: fixed;
+}
+
+.view .mask,
+.view .full-bg-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+.view img,
+.view video {
+	display: block;
+	position: relative;
+}
+
+.overlay .mask {
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.hm-zoom:hover .mask,
+.overlay:hover .mask {
+	opacity: 1;
+}
+
+.hm-zoom img,
+.hm-zoom video,
+.overlay img,
+.overlay video {
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.hm-black-strong .mask,
+.hm-black-strong .full-bg-img {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.flex-center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100%;
+}
+
+.flex-center p {
+	margin: 0;
+}
+
+.flex-center ul {
+	text-align: center;
+}
+
+.flex-center ul li {
+	margin-bottom: 1rem;
+}
+
+.rgba-blue-strong {
+	background-color: rgba(3, 169, 244, 0.7) !important;
+}
+
+.rgba-red-strong {
+	background-color: rgba(244, 67, 54, 0.7) !important;
+}
+
+.rgba-pink-strong {
+	background-color: rgba(233, 30, 99, 0.7) !important;
+}
+
+.rgba-purple-strong {
+	background-color: rgba(156, 39, 176, 0.7) !important;
+}
+
+.rgba-indigo-strong {
+	background-color: rgba(63, 81, 181, 0.7) !important;
+}
+
+.rgba-cyan-strong {
+	background-color: rgba(0, 188, 212, 0.7) !important;
+}
+
+.rgba-teal-strong {
+	background-color: rgba(0, 150, 136, 0.7) !important;
+}
+
+.rgba-green-strong {
+	background-color: rgba(76, 175, 80, 0.7) !important;
+}
+
+.rgba-lime-strong {
+	background-color: rgba(205, 220, 57, 0.7) !important;
+}
+
+.rgba-yellow-strong {
+	background-color: rgba(255, 235, 59, 0.7) !important;
+}
+
+.rgba-orange-strong {
+	background-color: rgba(255, 152, 0, 0.7) !important;
+}
+
+.rgba-brown-strong {
+	background-color: rgba(121, 85, 72, 0.7) !important;
+}
+
+.rgba-grey-strong {
+	background-color: rgba(158, 158, 158, 0.7) !important;
+}
+
+.rgba-bluegrey-strong {
+	background-color: rgba(96, 125, 139, 0.7) !important;
+}
+
+.rgba-black-strong {
+	background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.rgba-stylish-strong {
+	background-color: rgba(62, 69, 81, 0.7) !important;
+}
+
+.rgba-white-strong {
+	background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/*.margin {*/
+
+/*margin-bottom: 2%;*/
+
+/*}*/
+
+/*.row2 {*/
+/*	margin: 1% 1%;*/
+/*}*/
+
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-family: 'Allerta', sans-serif;
+	/*font-weight: 600;*/
+	font-size: 25px;
+	color: white;
+	text-shadow: 0px 2px 5px gray;
+	/*background: white;*/
+	padding: 8px;
+	/*border: 2px solid #67B0D1;*/
+}
+
+.bottom-left {
+	position: absolute;
+	color: white;
+	bottom: 8px;
+	left: 16px;
+}
+
+.text {
+	font-family: 'Architects Daughter', cursive;
+	color: white;
+	font-size: 30px;
+	padding: 5%;
+}
+
+.height {
+	height: 240px;
+}
+
+]
+
