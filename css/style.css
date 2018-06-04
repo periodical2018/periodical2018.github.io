@@ -570,6 +570,7 @@ container-fluid-sp {
 	height: 100vh;
 	z-index: 2;
 	background-size: cover;
+	/*background-color:rgba(0,0,0,0.9);*/
 
 }
 
@@ -587,8 +588,11 @@ container-fluid-sp {
 	z-index: 999;
 }
 
+
+
+/*the class of the text on home page*/
 .intro-text h1 {
-	color: #fff;
+	color: white;
 	text-align: center;
 	font-weight: 700;
 	font-size: 40px;

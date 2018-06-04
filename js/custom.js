@@ -28,7 +28,6 @@
   //Home Background Slider
 
   $(function() {
-
     $.mbBgndGallery.buildGallery({
       containment: "#intro",
       timer: 3000,
