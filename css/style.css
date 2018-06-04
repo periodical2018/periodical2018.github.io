@@ -562,10 +562,10 @@ container-fluid-sp {
 	padding: 0px;
 }
 
-.blueborder {
-	background: #67B0D1;
-	padding: 1%;
-}
+/*.blueborder {*/
+/*	background: #67B0D1;*/
+/*	padding: 1%;*/
+/*}*/
 #intro {
 	position: relative;
 	margin: 0 auto;
@@ -590,6 +590,7 @@ container-fluid-sp {
 	left: 0;
 	right: 0;
 	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 
