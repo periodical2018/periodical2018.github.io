@@ -793,11 +793,13 @@ Works
 	text-align: left;
 	height: 0;
 	overflow: hidden;
+	/*border: solid red;*/
 }
 
 .og-expander-inner {
 	padding: 50px 0;
 	height: 100%;
+	/*border: solid red;*/
 }
 
 .og-close {
@@ -840,8 +842,9 @@ Works
 	height: 100%;
 	overflow: hidden;
 	position: relative;
+	padding:0px 20px 0px 20px;
 }
-
+ 
 .og-details {
 	padding: 0 40px 0 0;
 }
